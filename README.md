@@ -15,7 +15,7 @@ Musethereal uses:
 
 3. [felHR85's UsbSerial](https://github.com/felHR85/UsbSerial) library was used to communicate data from the EPOC+ to the Arduino
 
-4. The Arduino [Trinket Pro 5V]{https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent brain state via color and the chasing, cascade sequence, corresponding to the brain activity
+4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent brain state via color and the chasing, cascade sequence, corresponding to the brain activity
 
 5. [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) library was used to set RGB LEDs' sequences
 
