@@ -15,8 +15,8 @@ Musethereal uses:
 
 3. [felHR85's UsbSerial](https://github.com/felHR85/UsbSerial) library was used to communicate data from the EPOC+ to the Arduino
 
-4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent brain state via color and the chasing, cascade sequence, corresponding to the brain activity
+4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent the chasing, cascade sequence, corresponding to the accelerometer tilt
 
 5. [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) library was used to set RGB LEDs' sequences
 
-6. [ADXL335 - 5V ready triple-axis accelerometer](https://www.adafruit.com/products/163) to read the analog value of the x, y and z direction of the hand gestures and output it to the LED strip as a chase sequence
+6. [ADXL335 - 5V ready triple-axis accelerometer](https://www.adafruit.com/products/163) was used to read the analog value of the x, y and z direction of the hand gestures and output it to the LED strip as a chase sequence
