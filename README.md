@@ -2,7 +2,7 @@
 ##Overview
 
 This repository contains code for the [MakeFashion](http://www.makefashion.ca/) project known as Musethereal. 
-Musethereal is a dress modeled after the [neuron](https://en.wikipedia.org/wiki/Neuron). This repository contains the code for the conceptual dendrites, responding to the position of the accelerometer tilt.
+Musethereal is a dress modelled after the [neuron](https://en.wikipedia.org/wiki/Neuron). This repository contains the code for the conceptual dendrites, responding to the position of the accelerometer tilt.
 
 ![alt text](https://raw.githubusercontent.com/GrooveTherapy/musethereal/master/musetherealfull.jpg "Musethereal")
 
@@ -15,7 +15,7 @@ Musethereal uses:
 
 3. [felHR85's UsbSerial](https://github.com/felHR85/UsbSerial) library was used to communicate data from the EPOC+ to the Arduino
 
-4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent the chasing, cascade sequence, corresponding to the accelerometer tilt
+4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent the chasing, cascading sequences, corresponding to the accelerometer tilt on the arms and on the skirt of the dress as appliqués.
 
 5. [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) library was used to set RGB LEDs' sequences
 
