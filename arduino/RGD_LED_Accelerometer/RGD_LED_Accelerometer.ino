@@ -52,7 +52,7 @@ void loop()
    analogValueY = analogRead(sensorPinY);
    analogValueZ = analogRead(sensorPinZ);
    
-   if (analogValueX > 400) //the value which is an average between no movement of the accelerometer and some change in position for the x-axis
+   if (analogValueX > 500) //the value which is an average between no movement of the accelerometer and some change in position for the x-axis
    {   
         // A light shower of light sky blue
         // This will run the cascade from top->bottom i times
@@ -66,7 +66,7 @@ void loop()
          {
            clearLEDs(); // Turn all LEDs off
          }
-   if (analogValueY > 400) //the value which is an average between no movement of the accelerometer and some change in position for the y-axis
+   if (analogValueY > 500) //the value which is an average between no movement of the accelerometer and some change in position for the y-axis
    {
           // A light shower of light sky blue
           // This will run the cascade from top->bottom i times
@@ -80,7 +80,7 @@ void loop()
          {
            clearLEDs(); // Turn all LEDs off
          }
-   if (analogValueZ > 400) //the value which is an average between no movement of the accelerometer and some change in position for the z-axis
+   if (analogValueZ > 500) //the value which is an average between no movement of the accelerometer and some change in position for the z-axis
    {
         // A light shower of light sky blue
         // This will run the cascade from top->bottom i times
