@@ -15,8 +15,8 @@ Musethereal uses:
 
 3. [felHR85's UsbSerial](https://github.com/felHR85/UsbSerial) library was used to communicate data from the EPOC+ to the Arduino
 
-4. The Arduino [Trinket Pro 5V](https://www.adafruit.com/product/2000) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent the chasing, cascading sequences, corresponding to the accelerometer tilt on the arms and on the skirt of the dress as appliqués.
+4. The Arduino [Trinket Pro 3V](https://www.adafruit.com/products/2010) uses [Adafruit Neopixel RGB LEDs](https://www.adafruit.com/products/1655) to represent the chasing, cascading sequences, corresponding to the accelerometer tilt on the arms and on the skirt of the dress as appliqués.
 
 5. [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) library was used to set RGB LEDs' sequences
 
-6. [ADXL335 - 5V ready triple-axis accelerometer](https://www.adafruit.com/products/163) was used to read the analog value of the x, y and z direction of the hand gestures and output it to the LED strip as a chase sequence
+6. [ADXL335 - Triple-Axis Accelerometer Breakout](https://www.sparkfun.com/products/9269) was used to read the analog value of the x, y and z direction of the hand gestures and output it to the LED strip as a chase sequence
